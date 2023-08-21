@@ -37,9 +37,12 @@
             .imgmenu{
                 width: 200px;
             }
+            li{
+                list-style: none;
+            }
             .redesmain{
-                margin-top:40px;
-                display:flex;
+                width: 100%;
+                display: flex;
                 justify-content: center;
                 list-style: none;
                 background: white;
@@ -48,6 +51,18 @@
             .text{
                 margin-top: 20px;
                 padding-right: 20px;
+            }
+            .proyectos{
+                margin: 5% auto 0% auto;
+                text-align: center;
+                border: 20px solid rgb(89, 138, 138);
+            }
+            .proyectos h2{
+                font-size: 200%;
+                margin: 5% 0%;
+            }
+            .logo_deOroVerde{
+                width: 50%;
             }
             
         </style>
@@ -63,13 +78,23 @@
         </ul>
         </div>
         
-        <div id="foot">
+        <div class="proyectos">
+            <h2>Proyectos</h2>
+            <ul>
+                <li class="deOroVerde">
+                    <h3>Proyecto en desarrollo:</h3>
+                    <a href="www.deOroVerde.szmblog.es"><img class="logo_deOroVerde" src="imagenes/logo_deOroVerde.png" alt="deOroVerde"></a>
+                </li>
+            </ul>
+        </div>
+        
+        <div>
         <ul class="redesmain">
             <li><h3 class="text">Redes sociales:</h3></li>
             <li><a class="redes" href="https://www.linkedin.com/in/sonia-zamora-mart%C3%ADn-daw-777a0a255/"><img width="60px" src="imagenes/linkedinemoji.gif" alt="Linkedin"></a></li>
             <li><a class="redes" href="https://www.instagram.com/szmblog/"><img width="60px" src="imagenes/instagramemoji.gif" alt="Instagram"></a></li>
         </ul>
         </div>
-        
+
     </body>
 </html>
