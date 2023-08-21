@@ -59,10 +59,13 @@
             }
             .proyectos h2{
                 font-size: 200%;
-                margin: 5% 0%;
+                margin: 5% 5%;
+                background-color: darkslategrey;
+                padding: 1%;
+
             }
             .logo_deOroVerde{
-                width: 50%;
+                width: 30%;
             }
             
         </style>
@@ -79,7 +82,7 @@
         </div>
         
         <div class="proyectos">
-            <h2>Proyectos</h2>
+            <h2>PROYECTOS</h2>
             <ul>
                 <li class="deOroVerde">
                     <h3>Proyecto en desarrollo:</h3>
