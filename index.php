@@ -96,6 +96,7 @@
             <li><h3 class="text">Redes sociales:</h3></li>
             <li><a class="redes" href="https://www.linkedin.com/in/sonia-zamora-mart%C3%ADn-daw-777a0a255/"><img width="60px" src="imagenes/linkedinemoji.gif" alt="Linkedin"></a></li>
             <li><a class="redes" href="https://www.instagram.com/szmblog/"><img width="60px" src="imagenes/instagramemoji.gif" alt="Instagram"></a></li>
+            <li><a class="redes" href="https://github.com/Vendelshella"><img width="60px" src="imagenes/github.gif" alt="GitHub"></a></li>
         </ul>
         </div>
 
