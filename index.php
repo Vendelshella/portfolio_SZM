@@ -3,72 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Inicio</title>
-        <style>
-            *{
-                padding: 0;
-                margin: 0;
-            }
-            html, body{
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                background: linear-gradient(to right, lightgray, grey);
-                height: 101%;
-            }
-            #main{
-                text-align: center;
-                padding-top: 50px;
-            }
-            #retrato{
-                width: 200px;
-            }
-            h1{
-                font-size: 60px;
-                margin-bottom: 0px;
-                margin-top: 30px;
-                background-color: darkslategrey;
-            }
-            .subtitulo{
-                padding: 15px;
-                background-color: rgb(89, 138, 138);
-            }
-            .menu{
-                margin-top: 30px;
-                padding: 0;
-            }
-            .imgmenu{
-                width: 200px;
-            }
-            li{
-                list-style: none;
-            }
-            .redesmain{
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                list-style: none;
-                background: white;
-                padding: 20px;
-            }
-            .text{
-                margin-top: 20px;
-                padding-right: 20px;
-            }
-            .proyectos{
-                margin: 5% auto 0% auto;
-                text-align: center;
-                border: 20px solid rgb(89, 138, 138);
-            }
-            .proyectos h2{
-                font-size: 200%;
-                margin: 5% 5%;
-                background-color: darkslategrey;
-                padding: 1%;
-
-            }
-            .logo_deOroVerde{
-                width: 30%;
-            }
-            
-        </style>
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
         <div id="main">
@@ -85,8 +20,8 @@
             <h2>PROYECTOS</h2>
             <ul>
                 <li class="deOroVerde">
-                    <h3>Proyecto en desarrollo:</h3>
-                    <a href="www.deOroVerde.szmblog.es"><img class="logo_deOroVerde" src="imagenes/logo_deOroVerde.png" alt="deOroVerde"></a>
+                    <h3>Otros proyectos:</h3>
+                    <a href="http://deoroverde.szmblog.es"><img class="logo_deOroVerde" src="imagenes/logo_deOroVerde.png" alt="deOroVerde"></a>
                 </li>
             </ul>
         </div>

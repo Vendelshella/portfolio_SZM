@@ -3,48 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Sobre mí</title>
-        <style>
-            *{
-                padding: 0;
-                margin: 0;
-            }
-            html, body{
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                background: linear-gradient(to right,lightgray,grey);
-                height: 100%;
-            }
-            #main{
-                padding-top: 30px;
-            }
-            h1{
-                text-align: center;
-                font-size: 60px;
-            }#lapizgif{
-                height: 40px;
-                width: 70px;
-                padding-right: 5px;
-            }
-            .menu{
-                padding-top: 10px;
-                list-style: none;
-                display: flex;
-                justify-content: center;
-            }
-            .imgmenu{
-                width: 150px;
-            }
-            li a{
-                text-decoration: none;
-                color: white;
-            }
-            #parrafos{
-                margin-top: 30px;
-                text-align: center;
-                font-size: 20px;
-                margin-left:200px;
-                margin-right:200px;
-            }
-        </style>
+        <link rel="stylesheet" href="css/sobremi.css">
     </head>
     <body>
         <div id="main">
@@ -98,7 +57,16 @@
         </p><br><br>
         
         </div>
-        
+    
+        </div>
+        <div id="foot">
+            <ul class="redesmain">
+                <li><h3 class="text">Redes sociales:</h3></li>
+                <li><a class="redes" href="https://www.linkedin.com/in/sonia-zamora-mart%C3%ADn-daw-777a0a255/"><img width="60px" src="imagenes/linkedinemoji.gif" alt="Linkedin"></a></li>
+                <li><a class="redes" href="https://www.instagram.com/szmblog/"><img width="60px" src="imagenes/instagramemoji.gif" alt="Instagram"></a></li>
+                <li><a class="redes" href="https://github.com/Vendelshella"><img width="60px" src="imagenes/github.gif" alt="GitHub"></a></li>
+            </ul>
+        </div>
         </div>
     </body>
 </html>
