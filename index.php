@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title>Inicio</title>
         <link rel="stylesheet" href="css/index.css">
+        <script src="js/jquery-3.7.0.min.js"></script>
+        <script src="js/index.js"></script>
     </head>
     <body>
         <div id="main">
@@ -19,9 +21,13 @@
         <div class="proyectos">
             <h2>PROYECTOS</h2>
             <ul>
-                <li class="deOroVerde">
-                    <h3>Otros proyectos:</h3>
-                    <a href="http://deoroverde.szmblog.es"><img class="logo_deOroVerde" src="imagenes/logo_deOroVerde.png" alt="deOroVerde"></a>
+                <li>
+                    <a class="enlace_proyectos" href="http://deoroverde.szmblog.es"><img class="logo_deoroverde" id="logo_deoroverde" src="imagenes/logo_deOroVerde.png" alt="deOroVerde"></a>
+                    <div id="text_deoroverde"><p>Página web para una pequeña empresa dedicada a la venta de papel con semillas</p></div>
+                </li>
+                <li>
+                    <a class="enlace_proyectos" href="http://starfinder.szmblog.es"><img class="logo_starfinder" id="logo_starfinder" src="imagenes/starfinder.png" alt="StarFinder"></a>
+                    <div id="text_starfinder"><p>Juego basado en la búsqueda de una estrella entre distintos personajes</p></div>
                 </li>
             </ul>
         </div>

@@ -47,17 +47,54 @@ li{
     padding-right: 20px;
 }
 .proyectos{
+    position: relative;
     margin: 5% auto 0% auto;
     text-align: center;
-    border: 20px solid rgb(89, 138, 138);
+    background-color: rgb(89, 138, 138);
+    padding: 2% 5% 5% 5%;
 }
 .proyectos h2{
     font-size: 200%;
-    margin: 5% 5%;
+    margin: 2%;
     background-color: darkslategrey;
-    padding: 1%;
-
 }
-.logo_deOroVerde{
+.logo_deoroverde{
     width: 30%;
+}
+#text_deoroverde{
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    width: 150px;
+    background-color:rgb(226, 223, 223);
+    padding: 3px;
+    border-radius: 3px;
+}
+.logo_starfinder{
+    width: 20%;
+}
+#text_starfinder{
+    position: absolute;
+    top: 65%;
+    left: 22%;
+    width: 150px;
+    background-color:rgb(226, 223, 223);
+    padding: 3px;
+    border-radius: 3px;
+}
+@media screen and (max-width: 800px) {
+    .logo_deoroverde{
+        width: 200px;
+    }
+    #text_deoroverde{
+        top: 30%;
+        left: 70%;
+    }
+    .logo_starfinder{
+        width: 120px;
+    }
+    #text_starfinder{
+        top: 60%;
+        left: 5%;
+    }
 }
